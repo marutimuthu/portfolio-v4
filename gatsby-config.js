@@ -155,6 +155,9 @@ module.exports = {
       options: {
         trackingIds: ['G-CP6TGZEGNV'],
       },
+      pluginConfig: {
+        head: true,
+      },
     },
   ],
 };
