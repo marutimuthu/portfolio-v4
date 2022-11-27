@@ -64,3 +64,11 @@ You can fork this repo. Please give proper credit by linking back to [brittanych
 ```
 
 2. Commit and publish branch
+
+## Changes
+
+1. Updated Google Analytics (analytics) to GA4 (gtag)
+
+2. gtag needs node version 18+ to install
+
+3. npm run deploy needs node version 16 to run
