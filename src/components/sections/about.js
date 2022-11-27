@@ -144,8 +144,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Maruti, based in Mumbai, India. I design and develop solutions
-              involving embedded systems, web and Industrial automation & IoT.
+              Hello! My name is Maruti Muthu, based in Mumbai, India. I design and develop solutions
+              involving embedded systems, web and Industrial Automation & IoT.
             </p>
             <p>
               I’ve had the privilege of working at{' '}
@@ -157,9 +157,9 @@ const About = () => {
               <a href="https://www.thegrapevine.co.in/">a marketing agency</a> and a machine shop.
             </p>
             <p>
-              I love working with machines and processes to find areas to improve reliability and
-              efficiency & reduce complexity. My hands are mostly on the keyboard or in the grease
-              box.
+              I love working with machines and analysing processes to find areas to improve
+              reliability, efficiency & reduce complexity. My approach to problems involve
+              computational thinking and minimalism.
             </p>
             <p></p>
             <p>--</p>

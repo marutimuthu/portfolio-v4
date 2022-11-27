@@ -3,8 +3,6 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-import { IconMedium } from '@components/icons';
-// import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -14,7 +12,7 @@ const StyledHeroSection = styled.section`
   padding: 0;
 
   @media (max-width: 480px) and (min-height: 700px) {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   h1 {
@@ -30,7 +28,7 @@ const StyledHeroSection = styled.section`
   }
 
   h3 {
-    margin-top: 10px;
+    margin-top: 40px;
     color: var(--slate);
     line-height: 0.9;
   }
@@ -61,7 +59,7 @@ const Hero = () => {
 
   const one = <h1>Hey there! My name is</h1>;
   const two = <h2 className="big-heading">Maruti Muthu.</h2>;
-  const three = <h3 className="big-heading">Engineering Industry 4.0</h3>;
+  const three = <h3 className="big-heading">Engineering Industry 4.0 ...</h3>;
   const four = (
     <>
       <p>
@@ -82,21 +80,21 @@ const Hero = () => {
         </a>
         .
       </p>
-      <p>--</p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://medium.com/@marutimuthu"
-      target="_blank"
-      rel="noreferrer">
-      <IconMedium />
-      Medium
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://medium.com/@marutimuthu"
+  //     target="_blank"
+  //     rel="noreferrer">
+  //     {/* <IconMedium /> */}
+  //     Medium
+  //   </a>
+  // );
 
-  const items = [one, two, four, three, five];
+  // const items = [one, two, four, three, five];
+  const items = [one, two, four, three];
 
   return (
     <StyledHeroSection>
