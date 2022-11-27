@@ -9,6 +9,7 @@ module.exports = {
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@marutimuthu',
   },
+  pathPrefix: '/portfolio-v4',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
