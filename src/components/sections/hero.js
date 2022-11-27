@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { IconMedium } from '@components/icons';
 // import { email } from '@config';
 
 const StyledHeroSection = styled.section`
@@ -40,7 +41,7 @@ const StyledHeroSection = styled.section`
   }
 
   .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
+    // ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
 `;
@@ -64,19 +65,24 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm an Industrial Electronics Engineer interested in solving real world problems with the help of modern technology.
+        I'm an Industrial Electronics Engineer and a Web Developer interested in solving real world
+        problems using modern technologies.
       </p>
       <p>
-        Currently, I’m focused on digitalizing manufacturing, warehousing and supply chain
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+        Currently, I’m focused on digitalizing manufacturing, warehousing and supply chain at{' '}
+        <a
+          href="https://www.alitersolutions.com/evolve-automation-platform.html"
+          target="_blank"
+          rel="noreferrer">
           Aliter Solutions
+        </a>
+        . I occasionally publish technical articles at{' '}
+        <a href="https://levelup.gitconnected.com" target="_blank" rel="noreferrer">
+          Level Up Coding
         </a>
         .
       </p>
-      <p>
-        --
-      </p>
+      <p>--</p>
     </>
   );
   const five = (
@@ -85,11 +91,12 @@ const Hero = () => {
       href="https://medium.com/@marutimuthu"
       target="_blank"
       rel="noreferrer">
+      <IconMedium />
       Medium
     </a>
   );
 
-  const items = [one, two, four, three];
+  const items = [one, two, four, three, five];
 
   return (
     <StyledHeroSection>

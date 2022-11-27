@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Embedded C (FreeRTOS)', 'Node.js', 'React', 'Python', 'Linux', 'Fusion 360', 'Additive Manufacturing', 'AutoDesk Eagle' ];
+  const skills = [
+    'Embedded C (FreeRTOS)',
+    'Node.js',
+    'React',
+    'Python',
+    'Linux',
+    'Fusion 360',
+    'Additive Manufacturing',
+    'AutoDesk Eagle',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,20 +144,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Maruti, based in Mumbai, India. I design and develop solutions involving embedded systems, web development and Industrial IoT implementations. 
+              Hello! My name is Maruti, based in Mumbai, India. I design and develop solutions
+              involving embedded systems, web and Industrial automation & IoT.
             </p>
             <p>
               I’ve had the privilege of working at{' '}
               {/* <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '} */}
-              <a href="https://www.lntebg.in/products-services/products/relays/">a huge corporation</a>,{' '}
-              <a href="https://www.faclon.com/">a tech startup</a>,{' '}
-              <a href="https://www.thegrapevine.co.in/">a marketing agency</a>{' '}and{' '}
-              <a href="#about">a machine shop</a>{' '}
-              . 
+              <a href="https://www.lntebg.in/products-services/products/relays/">
+                a huge corporation
+              </a>
+              , <a href="https://www.faclon.com/">a tech startup</a>,{' '}
+              <a href="https://www.thegrapevine.co.in/">a marketing agency</a> and a machine shop.
             </p>
             <p>
-              I love working with machines and processes to find areas to improve reliability and efficiency & reduce complexity.
-              My hands are mostly on the keyboard or in the grease box.
+              I love working with machines and processes to find areas to improve reliability and
+              efficiency & reduce complexity. My hands are mostly on the keyboard or in the grease
+              box.
             </p>
             <p></p>
             <p>--</p>

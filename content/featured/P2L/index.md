@@ -11,5 +11,5 @@ tech:
 ---
 
 ### Streamlined warehouse picking operations using IoT
+
 Pick-to-light systems are simple but robust systems designed to streamline the warehouse picking operations, thus increasing efficiency, productivity and picking accuracy, while simultaneously reducing costs.
-[Read More](https://medium.com/@marutimuthu/the-pick-to-light-system-78d5c35c8057)

@@ -5,7 +5,7 @@ module.exports = {
     title: 'Maruti Muthu',
     description:
       'Maruti Muthu is a electronics engineer who specializes in building and designing exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://marutimuthu.github.io/portfolio-v4', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@marutimuthu',
   },
@@ -153,7 +153,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'G-CP6TGZEGNV',
       },
     },
   ],

@@ -4,9 +4,9 @@ title: 'Embedded Systems Engineer (Hardware)'
 company: 'Faclon Labs'
 location: 'Mumbai, India'
 range: 'Jun 2016 - Sept 2020'
-# url: 'https://www.upstatement.com/'
+url: 'https://www.faclon.com/'
 ---
 
-- Skills: Circuit design, PCB design, managed PCBA, Documentation and Testing 
+- Skills: Circuit design, PCB design, managed PCBA, Documentation and Testing
 - Supported design reviews, Design Validation Planning and Review Programs
-- Developed and Maintained vendor relations 
+- Developed and Maintained vendor relations
