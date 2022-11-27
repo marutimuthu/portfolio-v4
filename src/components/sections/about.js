@@ -135,7 +135,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey there! My name is Maruti, based in Mumbai, India. I design and develop solutions involving embedded systems, web development and Industrial IoT implementations. 
+              Hello! My name is Maruti, based in Mumbai, India. I design and develop solutions involving embedded systems, web development and Industrial IoT implementations. 
             </p>
             <p>
               I’ve had the privilege of working at{' '}

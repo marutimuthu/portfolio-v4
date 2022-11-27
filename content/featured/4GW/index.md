@@ -3,7 +3,7 @@ date: '1'
 title: 'IoT Gateway: 4GW Series'
 cover: './00466.jpg'
 # github: '#featured'
-external: 'https://spotify-profile.herokuapp.com/'
+external: '#featured'
 tech:
   - Altium
   - FreeRTOS

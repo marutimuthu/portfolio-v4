@@ -3,7 +3,7 @@ date: '3'
 title: 'Pick to Light Gateway'
 cover: './demo.jpg'
 # github: '#featured'
-external: 'https://spotify-profile.herokuapp.com/'
+external: 'https://medium.com/@marutimuthu/the-pick-to-light-system-78d5c35c8057'
 tech:
   - FreeRTOS
   - AutoDesk Eagle

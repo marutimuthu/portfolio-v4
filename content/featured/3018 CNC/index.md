@@ -3,7 +3,7 @@ date: '5'
 title: 'Desktop CNC'
 cover: './demo.jpeg'
 # github: '#featured'
-external: 'https://spotify-profile.herokuapp.com/'
+external: '#featured'
 tech:
   - GRBL
   - Universal GCode Sender

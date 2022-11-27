@@ -3,7 +3,7 @@ date: '4'
 title: 'Robot Control Board'
 cover: './demo.png'
 # github: '#featured'
-external: 'https://spotify-profile.herokuapp.com/'
+external: '#featured'
 tech:
   - AutoDesk Eagle
   - Schematic Design

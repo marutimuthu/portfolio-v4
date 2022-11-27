@@ -3,6 +3,14 @@ module.exports = {
 
   socialMedia: [
     {
+      name: 'Medium',
+      url: 'https://marutimuthu.medium.com/',
+    },
+    {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/marutimuthu',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/marutimuthu',
     },
@@ -14,17 +22,9 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/marutimuthu',
     },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/marutimuthu',
-    },
-    {
-      name: 'Medium',
-      url: 'https://marutimuthu.medium.com/',
-    },
     // {
     //   name: 'Codepen',
-    //   url: 'https://codepen.io/bchiang7',
+    //   url: 'https://codepen.io/_user_',
     // },
   ],
 

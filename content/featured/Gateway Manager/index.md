@@ -3,7 +3,7 @@ date: '2'
 title: 'IoT Infrastructure Manager'
 cover: './demo.png'
 # github: '#featured'
-external: 'https://spotify-profile.herokuapp.com/'
+external: '#featured'
 tech:
   - Node.Js
   - React

@@ -58,13 +58,13 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hello, my name is</h1>;
+  const one = <h1>Hey there! My name is</h1>;
   const two = <h2 className="big-heading">Maruti Muthu.</h2>;
   const three = <h3 className="big-heading">Engineering Industry 4.0</h3>;
   const four = (
     <>
       <p>
-        I'm an Electronics Engineer interested in solving real world problems with the help of modern technology.
+        I'm an Industrial Electronics Engineer interested in solving real world problems with the help of modern technology.
       </p>
       <p>
         Currently, I’m focused on digitalizing manufacturing, warehousing and supply chain
