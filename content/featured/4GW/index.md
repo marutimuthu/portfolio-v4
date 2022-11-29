@@ -15,6 +15,6 @@ tech:
 
 #### Compact and Low Cost multi-protocol Industrial IoT Gateway Series designed to integrate machines and processes to the Internet.
 
-- Network Connectivity - 4G, GPS, WiFi, Ethernet
-- Field Connectivity - Modbus RTU / ASCII / TCP-IP
+- Network - 4G, GPS, WiFi, Ethernet
+- Field - Modbus RTU / ASCII / TCP-IP
 - Connects to PLC, HMI, VFD, CNC, Temperature Sensor, Weighing Scale and other field devices

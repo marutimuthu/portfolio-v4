@@ -158,8 +158,8 @@ const About = () => {
             </p>
             <p>
               I love working with machines and analysing processes to find areas to improve
-              reliability, efficiency & reduce complexity. My approach to problems involve
-              computational thinking and minimalism.
+              reliability, efficiency & reduce complexity. My approach to solving problems involves
+              minimalism and computational thinking.
             </p>
             <p></p>
             <p>--</p>
@@ -177,7 +177,8 @@ const About = () => {
               // className="img"
               src="../../images/me.jpg"
               width={500}
-              quality={95}
+              height={600}
+              quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />

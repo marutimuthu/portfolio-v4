@@ -63,20 +63,20 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm an Industrial Electronics Engineer and a Web Developer interested in solving real world
-        problems using modern technologies.
+        I'm an Industrial Electronics Engineer and a technology enabler, solving real world problems
+        using disruptive technologies.
       </p>
       <p>
-        Currently, I’m focused on digitalizing manufacturing, warehousing and supply chain at{' '}
+        I occasionally publish technical articles at{' '}
+        <a href="https://levelup.gitconnected.com" target="_blank" rel="noreferrer">
+          Level Up Coding
+        </a>
+        . Currently, focused on digitalizing manufacturing, warehousing and supply chain at{' '}
         <a
           href="https://www.alitersolutions.com/evolve-automation-platform.html"
           target="_blank"
           rel="noreferrer">
           Aliter Solutions
-        </a>
-        . I occasionally publish technical articles at{' '}
-        <a href="https://levelup.gitconnected.com" target="_blank" rel="noreferrer">
-          Level Up Coding
         </a>
         .
       </p>
