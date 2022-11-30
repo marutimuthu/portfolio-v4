@@ -1,7 +1,7 @@
 ---
 date: '4'
 title: 'Robot Control Board'
-cover: './demo.png'
+cover: './demo.jpg'
 # github: '#featured'
 # external: '#featured'
 tech:

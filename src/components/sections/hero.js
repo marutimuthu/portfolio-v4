@@ -16,7 +16,7 @@ const StyledHeroSection = styled.section`
   }
 
   h1 {
-    margin: 0 0 30px 4px;
+    margin: 0 0 10px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
@@ -28,7 +28,7 @@ const StyledHeroSection = styled.section`
   }
 
   h3 {
-    margin-top: 40px;
+    margin-top: 20px;
     color: var(--slate);
     line-height: 0.9;
   }
@@ -59,7 +59,7 @@ const Hero = () => {
 
   const one = <h1>Hey there! My name is</h1>;
   const two = <h2 className="big-heading">Maruti Muthu.</h2>;
-  const three = <h3 className="big-heading">Engineering Industry 4.0 ...</h3>;
+  const three = <h3 className="big-heading">Engineering Industry 4.0</h3>;
   const four = (
     <>
       <p>
