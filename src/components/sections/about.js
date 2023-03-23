@@ -33,7 +33,7 @@ const StyledText = styled.div`
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-size: var(--fz-sm);
 
       &:before {
         content: '▹';
@@ -126,14 +126,14 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Embedded C (FreeRTOS)',
+    'Linux',
     'Node.js',
     'React',
     'Python',
-    'Linux',
-    'Fusion 360',
-    'Additive Manufacturing',
+    'AutoDesk Fusion 360',
     'AutoDesk Eagle',
+    'Additive Manufacturing',
+    'Embedded C (FreeRTOS)',
   ];
 
   return (
@@ -144,26 +144,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Maruti Muthu, based in Mumbai, India. I design and develop solutions
-              involving embedded systems, web and Industrial Automation & IoT.
+              Currently based in <a>Mumbai, India</a>, I design & develop products and solutions 
+              integrating automated machines, embedded systems & cloud.
             </p>
             <p>
-              I’ve had the privilege of working at{' '}
+              Throughout my carrer, I have had the privilege of working at{' '}
               {/* <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '} */}
               <a href="https://www.lntebg.in/products-services/products/relays/">
-                a huge corporation
+                a huge engineering corporation (L&T)
               </a>
-              , <a href="https://www.faclon.com/">a tech startup</a>,{' '}
-              <a href="https://www.thegrapevine.co.in/">a marketing agency</a> and a machine shop.
+              , <a href="https://www.faclon.com/">a software tech startup (Faclon Labs)</a>,{' '}
+              <a href="https://www.thegrapevine.co.in/">a marketing agency (The Grapevine Co.)</a> and <a>a machine shop (summer intern)</a>, 
+              each of which has taught me valuable lessons and allowed me to develop a versatile skill set.
             </p>
             <p>
-              I love working with machines and analysing processes to find areas to improve
+              I work with machines & humans and analyse processes to find areas to improve
               reliability, efficiency & reduce complexity. My approach to solving problems involves
               minimalism and computational thinking.
             </p>
             <p></p>
             <p>--</p>
-            <p>Technologies I’ve been working with consistently:</p>
+            <p><a>Technologies I’ve been working with consistently:</a></p>
           </div>
 
           <ul className="skills-list">

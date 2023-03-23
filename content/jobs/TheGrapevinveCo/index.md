@@ -1,7 +1,7 @@
 ---
 date: '2018-06-14'
 title: 'Vice City Head - Digital Marketing'
-company: 'The Grapevine Co.'
+company: 'Grapevine Co.'
 location: 'Mumbai, India'
 range: 'May 2017 - May 2018'
 url: 'https://www.thegrapevine.co.in'
