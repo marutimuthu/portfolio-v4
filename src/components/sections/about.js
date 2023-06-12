@@ -164,7 +164,7 @@ const About = () => {
             </p>
             <p></p>
             <p>--</p>
-            <p><a>Technologies I’ve been working with consistently:</a></p>
+            <p><a>Technologies I’m hands on with:</a></p>
           </div>
 
           <ul className="skills-list">

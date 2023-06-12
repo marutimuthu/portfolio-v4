@@ -8,6 +8,6 @@ url: 'https://cpdm.iisc.ac.in/smartmanufacturing/'
 ---
 
 ### Areas of interest
-- Fundamentals of Industry 4.0
-- Design for Manufacturing (Embedded and Additive Manufacturing)
-- Big Data Analysis
+- IoT and Digital Twins
+- Cybersecurity
+- Machine Learning and Artificial Intelligence

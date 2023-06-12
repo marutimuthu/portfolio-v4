@@ -13,7 +13,7 @@ tech:
 
 ### [AR4 6DOF Robot ARM](https://www.anninrobotics.com/home)
 
-#### Custom control board to connect the Robot Arm via Raspberry Pi.
+#### Custom breakout control board to connect the Robot Controls to Raspberry Pi.
 
 - Offline Programming and simulation enabled through Pi
 - Remotely Programmable

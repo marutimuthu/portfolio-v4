@@ -3,7 +3,7 @@ date: '2022-12-14'
 title: 'Team Lead IoT'
 company: 'Aliter'
 location: 'Mumbai, India'
-range: 'Jan 2022 - Present'
+range: 'Jan 2022 - May 2023'
 url: 'https://www.alitersolutions.com/evolve-automation-platform.html'
 ---
 

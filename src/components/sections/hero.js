@@ -57,8 +57,8 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hello and Welcome to my portfolio website! My name is</h1>;
-  const two = <h2 className="big-heading">Maruti Muthu.</h2>;
+  const one = <h1>Welcome to my portfolio website! <br/><br/> My name is</h1>;
+  const two = <h2 className="big-heading">Maruti Muthu</h2>;
   const three = <h3 className="big-heading">[ Engineering Industry 4.0 ]</h3>;
   const four = (
     <>
@@ -66,19 +66,19 @@ const Hero = () => {
         I'm an <a> Industrial Electronics Engineer </a> developing scalable industrial solutions to synergise humans and machines.
       </p>
       <p>
-      Here, you will find a collection of my work and experience in {' '} <a> Mechanical Engineering</a>, <a> Embedded Hardware & Firmware Engineering</a> and <a> Software Engineering.</a> 
+      Here, you will find a few of my work and experience in {' '} <a> Mechanical Engineering</a>, <a> Embedded Hardware & Firmware Engineering</a> and <a> Software Engineering.</a> 
       </p>
       <p>
         I occasionally publish technical articles at{' '}
         <a href="https://levelup.gitconnected.com" target="_blank" rel="noreferrer">
           Level Up Coding
         </a>
-        . Currently, focused on digitalizing manufacturing, warehousing and supply chain at{' '}
+        . <br/> Currently working as a Specialist - Industrial IoT at{' '}
         <a
-          href="https://www.alitersolutions.com/evolve-automation-platform.html"
+          href="https://www.ltimindtree.com"
           target="_blank"
           rel="noreferrer">
-          Aliter Solutions
+          LTIMindtree
         </a>
         . 
       </p>
