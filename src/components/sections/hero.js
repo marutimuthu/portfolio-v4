@@ -59,21 +59,22 @@ const Hero = () => {
 
   const one = <h1>Welcome to my portfolio website! <br/><br/> My name is</h1>;
   const two = <h2 className="big-heading">Maruti Muthu</h2>;
-  const three = <h3 className="big-heading">[ Engineering Industry 4.0 ]</h3>;
+  const three = <h3 className="big-heading">[ - Engineering Industry 4.0 - ]</h3>;
   const four = (
     <>
       <p>
         I'm an <a> Industrial Electronics Engineer </a> developing scalable industrial solutions to synergise humans and machines.
       </p>
       <p>
-      Here, you will find a few of my work and experience in {' '} <a> Mechanical Engineering</a>, <a> Embedded Hardware & Firmware Engineering</a> and <a> Software Engineering.</a> 
-      </p>
-      <p>
-        I occasionally publish technical articles at{' '}
+      Here, you will find few of my work and experiences in {' '} <a> Mechanical Engineering, Embedded Hardware & Firmware Engineering and Web Development.</a> 
+      I occasionally publish technical articles at{' '}
         <a href="https://levelup.gitconnected.com" target="_blank" rel="noreferrer">
           Level Up Coding
         </a>
-        . <br/> Currently working as a Specialist - Industrial IoT at{' '}
+        .
+      </p>
+      <p>
+        <br/> Currently working as a Specialist - Industrial IoT at{' '}
         <a
           href="https://www.ltimindtree.com"
           target="_blank"

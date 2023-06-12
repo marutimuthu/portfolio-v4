@@ -159,8 +159,7 @@ const About = () => {
             </p>
             <p>
               I work with machines & humans and analyse processes to find areas to improve
-              reliability, efficiency & reduce complexity. My approach to solving problems involves
-              minimalism and computational thinking.
+              reliability, efficiency & reduce complexity. 
             </p>
             <p></p>
             <p>--</p>
