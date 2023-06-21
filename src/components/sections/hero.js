@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { IconScroll } from '../icons';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -10,6 +11,7 @@ const StyledHeroSection = styled.section`
   align-items: flex-start;
   min-height: 100vh;
   padding: 0;
+  padding-top: 10vh;
 
   @media (max-width: 480px) and (min-height: 700px) {
     padding-bottom: 0vh;
@@ -34,8 +36,13 @@ const StyledHeroSection = styled.section`
   }
 
   p {
-    margin: 20px 0 0;
+    margin: 10px 0 0;
     max-width: 540px;
+  }
+
+  .scroll {
+    margin-top: 2vh;
+    height: 10vh;
   }
 
   .email-link {
@@ -57,31 +64,34 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Welcome to my portfolio website! <br/><br/> My name is</h1>;
+  const one = <h1>Hey there! My name is</h1>;
   const two = <h2 className="big-heading">Maruti Muthu</h2>;
-  const three = <h3 className="big-heading">[ - Engineering Industry 4.0 - ]</h3>;
+  const three = (
+    <a className="scroll">
+      {' '}
+      <IconScroll />
+    </a>
+  );
+  // <a href="/" aria-label="home"> <IconScroll /> </a>;
   const four = (
     <>
       <p>
-        I'm an <a> Industrial Electronics Engineer </a> developing scalable industrial solutions to synergise humans and machines.
+        I'm a <a> Developer & Engineer </a> developing scalable industrial solutions to synergise
+        humans and machines, fueling the fourth industrial revolution.
       </p>
       <p>
-      Here, you will find few of my work and experiences in {' '} <a> Mechanical Engineering, Embedded Hardware & Firmware Engineering and Web Development.</a> 
-      I occasionally publish technical articles at{' '}
-        <a href="https://levelup.gitconnected.com" target="_blank" rel="noreferrer">
-          Level Up Coding
+        Here, you will find few of my work and experiences in{' '}
+        <a>
+          {' '}
+          Mechanical Engineering, Embedded Hardware & Firmware Engineering and Web Development.
         </a>
-        .
       </p>
       <p>
-        <br/> Currently working as a Specialist - Industrial IoT at{' '}
-        <a
-          href="https://www.ltimindtree.com"
-          target="_blank"
-          rel="noreferrer">
+        Specialist - Industrial IoT at{' '}
+        <a href="https://www.ltimindtree.com" target="_blank" rel="noreferrer">
           LTIMindtree
         </a>
-        . 
+        .
       </p>
     </>
   );

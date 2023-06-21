@@ -145,7 +145,7 @@ const About = () => {
           <div>
             <p>
               Currently based in <a>Mumbai, India</a>, I design & develop products and solutions 
-              integrating automated machines, embedded systems & cloud.
+              integrating machines, embedded systems & cloud.
             </p>
             <p>
               Throughout my carrer, I have had the privilege of working at{' '}
@@ -157,10 +157,10 @@ const About = () => {
               <a href="https://www.thegrapevine.co.in/">a marketing agency (The Grapevine Co.)</a> and <a>a machine shop (summer intern)</a>, 
               each of which has taught me valuable lessons and allowed me to develop a versatile skill set.
             </p>
-            <p>
+            {/* <p>
               I work with machines & humans and analyse processes to find areas to improve
               reliability, efficiency & reduce complexity. 
-            </p>
+            </p> */}
             <p></p>
             <p>--</p>
             <p><a>Technologies I’m hands on with:</a></p>
