@@ -8,4 +8,4 @@ url: 'https://www.thegrapevine.co.in'
 ---
 
 - Formulated digital marketing strategies and events for media companies like Viacom18, MTv, etc.
-- Managed network of over 80 colleges in Mumbai
+- Managed network of over 150 representatives from 80 colleges across Mumbai

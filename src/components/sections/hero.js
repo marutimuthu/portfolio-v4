@@ -76,7 +76,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a <a> Developer & Engineer </a> developing scalable industrial solutions to synergise
+        I'm a <a> Developer & Engineer </a> passionate about crafting scalable industrial solutions to synergise
         humans and machines, fueling the fourth industrial revolution.
       </p>
       <p>

@@ -7,4 +7,5 @@ range: 'Jun 2023 - Present'
 url: 'https://www.ltimindtree.com'
 ---
 
-LTIMindtree is Enabling Businesses and Communities to flourish in a Hyperconnected World
+- Role: Edge Architecture Planning & Delivery
+- Leading development of internal Edge Evaluation Framework

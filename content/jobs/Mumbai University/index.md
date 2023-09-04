@@ -7,6 +7,5 @@ range: 'Aug 2016 - June 2019'
 url: 'https://mu.ac.in/'
 ---
 
-- Chairperson for Institute for Electronics and Telecommunication Engineers (IETE) Student's Chapter - Apr 2017 to Apr 2018
-  Technical Paper Publication:
-  [Design of Sensor Nodes based on principles of LoRaPhy and LoRaWAN](https://www.igi-global.com/gateway/article/247098)
+- Role of Responsibility: Chairperson of Institute for Electronics and Telecommunication Engineers (IETE) Student's Chapter - Apr 2017 to Apr 2018
+- Technical Paper Publication: [Design of Sensor Nodes based on principles of LoRaPhy and LoRaWAN](https://www.igi-global.com/gateway/article/247098)
